@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "cordova-plugin-fcm-with-dependecy-updated-12"
-  spec.version      = "7.8.4-d"
+  spec.version      = "7.8.4-g"
   spec.summary      = "Google FCM Push Notifications Cordova Plugin"
 
   # This description is used to generate tags and improve search results.
@@ -140,6 +140,6 @@ DESC
   spec.dependency "Cordova", ">= 3.0.0"
 
   # TODO: Migrate to use Core cocoapods Firebase dependencies
-  spec.dependency 'Firebase/Messaging'
+  spec.dependency 'FirebaseMessaging'
 
 end
